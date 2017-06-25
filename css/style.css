@@ -2,7 +2,7 @@ header{
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-i {
+.apvalus {
     background-color: #787878;
     border-radius: 50%;
     padding:5px;
@@ -10,7 +10,6 @@ i {
     height: 20px;
     text-align: center;
     line-height: 60px;
-    position: absolute;
 }
 a{
     text-decoration: none;
@@ -68,9 +67,6 @@ body{
 .texstsize10px{
     font-size: 12px;
 }
-.softsoftgray{
-    background-color: #f1f1f1;
-}
 .block{
     display: block;
 }
@@ -83,4 +79,38 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+div.inline {
+    float:left;
+}
+.clearBoth {
+    clear:both;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: #f1f1f1;
+}
+body {
+    font-family: "Georgia", Times, serif;
+}
+.bottombordergray{
+    border-bottom: 5px solid #8c8c8c;
+    padding-bottom: 5px;
+    border-collapse: collapse;
+    display: inline-block;
+    margin-right: -5px;
+}
+.bottombordergray:hover{
+    border-bottom: 5px solid blue;
+    padding-bottom: 5px;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+.paddingright10{
+    padding-right: 10px;
+}
+a + a {
+    margin-left: 10px;
 }
