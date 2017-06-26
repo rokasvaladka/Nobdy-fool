@@ -96,17 +96,17 @@ body {
     font-family: "Georgia", Times, serif;
 }
 .bottombordergray{
-    border-bottom: 5px solid #8c8c8c;
-    padding-bottom: 5px;
+    position: absolute;
+    padding-bottom: -55px;
     border-collapse: collapse;
-    display: inline-block;
     margin-right: -5px;
 }
 .bottombordergray:hover{
+    position: absolute;
     border-bottom: 5px solid blue;
-    padding-bottom: 5px;
+    padding-bottom: -55px;
     border-collapse: separate;
-    border-spacing: 10px 10px;
+    z-index: 99999;
 }
 .paddingright10{
     padding-right: 10px;
