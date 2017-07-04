@@ -97,7 +97,10 @@ body {
 }
 .bottombordergray{
     position: absolute;
-    padding-bottom: -55px;
+    padding-bottom: 7px;
+    width: 100%;
+    height: 20px;
+    margin-top: -20px;
 }
 .bottombordergray:hover{
     position: absolute;
@@ -110,4 +113,7 @@ body {
 }
 a + a {
     float: left;
+}
+li {
+    list-style-type: none;
 }
